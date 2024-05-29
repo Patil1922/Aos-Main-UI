@@ -24,9 +24,13 @@
             border-radius: 10px;
             padding: 20px;
             text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .container:hover {
+            transform: scale(1.05);
         }
         .titlebar {
-            background-color: #007bff;
+            background-color: #1e3a8a; /* Dark blue */
             color: #fff;
             padding: 10px;
             border-radius: 10px 10px 0 0;
@@ -35,17 +39,21 @@
             padding: 20px;
         }
         .btn-custom {
-            background-color: #007bff;
+            background-color: #1e3a8a; /* Dark blue */
             color: #fff;
             border-radius: 20px;
             padding: 10px 30px;
+            transition: background-color 0.3s ease;
+        }
+        .btn-custom:hover {
+            background-color: #163a70; /* Darker blue */
         }
         .apply-token a {
             margin: 0 10px;
-            color: #007bff;
+            color: #1e3a8a; /* Dark blue */
         }
         .apply-token svg {
-            fill: #007bff;
+            fill: #1e3a8a; /* Dark blue */
         }
     </style>
 </head>
